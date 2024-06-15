@@ -4,16 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            width: 400px;
+            background: papayawhip;
+            height: 200px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            
+        }
+        .item {
+            background: purple;
+        }
+        .container .item:nth-child(2){
+            background: skyblue;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .container .item:nth-child(4){
+            background: skyblue;
+        }
+
+        .container .item:nth-child(1){
+            grid-column: 1/2;
+            grid-column: 4/5;
+            grid-row: 4/5;
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <h1>Platzi</h1>
-        <p>Tiene una comunidad</p>
-        <ul>
-            <li>Maravillosa</li>
-            <li>Increible</li>
-        </ul>
-    </section>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
     
 </body>
 </html>
