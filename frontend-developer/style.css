@@ -1,0 +1,39 @@
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 500px;
+    height: 500px;
+    background: #212F5C;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card .arriba{
+    width: 100%;
+    height: 200px;
+
+}
+.card .perfil{
+    width: 25%;
+    position: relative;
+    left: 11rem;
+    border-radius: 100%;
+    top: -5rem;
+    padding: 0;
+    margin-bottom: 1px;
+
+}
+.nombre{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: -5rem;
+}
+.cargo{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-top: -1rem;
+}
