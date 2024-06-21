@@ -27,6 +27,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+    justify-items: center;
 }
 .logo{
     width: 150px;
@@ -90,3 +91,34 @@ body{
     }
 }
 /*Primera clase pantalla nuevo password FIN*/
+
+/*Página de email enviado*/
+
+.email-image{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.email-image img{
+    width: 80px;
+}
+
+.resend{
+    font-size: var(--sm);
+
+}
+
+.resend span{
+    font-weight: bold;
+    color: var(--very-licht-pink);
+}
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
