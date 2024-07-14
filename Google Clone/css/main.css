@@ -93,3 +93,30 @@ main .main-input input{
     border: none;
     outline: none;
 }
+
+/*Estilo de la sombra del contenedor*/
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+/*Estilo a los iconos*/
+main .main-input .search-icon{
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-18.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3128/3128290.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
