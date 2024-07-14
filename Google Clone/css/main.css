@@ -70,3 +70,26 @@ main .main-logo{
     margin: 0 auto 35px auto;
     
 }
+main .main-input{
+    width: 530px;
+    margin: 0 auto 35px auto;
+
+}
+
+/*contenedor completo que contiene al input e iconos*/
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo al input para quitar borde*/
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
