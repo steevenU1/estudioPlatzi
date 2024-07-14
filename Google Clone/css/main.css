@@ -6,6 +6,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Tamaño del contenedor para la barra de navegación */
 header{
     width: 100%;
@@ -18,4 +23,21 @@ header nav{
 }
 
 /*alinear lista de forma vertical, quitar bullets y decoration*/
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
 
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-right-section a:hover{
+    text-decoration: underline;
+}
