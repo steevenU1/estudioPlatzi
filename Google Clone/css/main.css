@@ -152,3 +152,44 @@ main .main-buttons button:hover{
     border-color: #dfe1e500;
     color: #000001;
 }
+
+/*Estilos al footer*/
+footer{
+    width: 100%;
+    height: 60px;
+    /*Posición del footer hasta abajo*/
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+
+}
+
+footer ul li a{
+    color: #5f6368;
+    margin: 10px;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
