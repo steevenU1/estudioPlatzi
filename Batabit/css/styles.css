@@ -403,3 +403,26 @@ main{
     color: #808080;
     
 }
+
+/*Estilos a sección comodín solo con img de bckgrnnd*/
+.bitcoin-img{
+    
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bitcoin-img h2{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: var(--just-white);
+    padding-top: 60px;
+    
+}
