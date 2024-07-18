@@ -463,7 +463,7 @@ main{
     width: 70%;
     min-width: 230px;
     max-width: 300px;
-    height: 250px;
+    height: 288px;
     margin: 50px auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
@@ -507,7 +507,7 @@ main{
 .plan-card--price span{
     position: absolute;
     top: 17px;
-    left: calc(50% - 40px);
+    left: calc(50% - 50px);
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-weight: 300;
@@ -525,12 +525,25 @@ main{
 }
 
 .plan-cards--ca{
+    
     width: 150px;
-    height: 50px;
+    height: 48px;
+    margin-top: 20px;
     background-color: var(--soft-orange);
     border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
-    text-align: center;
     font-size: 1.4rem;
     line-height: 1.8rem;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
 }
+
+.plan-cards--ca span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+    margin-left: 5px;
+}
+
