@@ -458,13 +458,24 @@ main{
     padding-top: 30px;
 }
 
+/*Slider para tarjetas de planes */
+.plans-container--slider{
+    display: flex;
+    align-items: center;
+    height: 313px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center; /*centra automaticamente el scroll en la tarjeta*/
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 288px;
-    margin: 50px auto 0;
+    margin: auto 20px;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 8px;
@@ -524,6 +535,8 @@ main{
     padding: 20px;
 }
 
+
+
 .plan-cards--ca{
     
     width: 150px;
@@ -546,4 +559,7 @@ main{
     vertical-align: text-bottom;
     margin-left: 5px;
 }
+
+
+
 
