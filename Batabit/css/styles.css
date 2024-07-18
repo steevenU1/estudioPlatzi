@@ -462,7 +462,7 @@ main{
 .plans-container--slider{
     display: flex;
     align-items: center;
-    height: 313px;
+    height: 335px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -472,10 +472,10 @@ main{
     position: relative;
     scroll-snap-align: center; /*centra automaticamente el scroll en la tarjeta*/
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 288px;
-    margin: auto 20px;
+    margin: 0 10px;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 8px;
@@ -560,6 +560,36 @@ main{
     margin-left: 5px;
 }
 
+/*footer*/
 
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
 
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.footer-left li{
+    margin: 10px 0;
+}
+
+.footer-left a{
+    display: block;
+    text-decoration: none;
+    color: var(--just-white);
+}
 
