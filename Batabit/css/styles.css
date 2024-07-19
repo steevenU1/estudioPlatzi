@@ -127,7 +127,7 @@ main{
 .main--table-container{
     display: flex;
     align-items: center;
-    height: 375px;
+    height: 380px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
