@@ -4,21 +4,28 @@ $secundary-color: #FFDAC6;
 $primary-color: #FFEFE7;
 $font-stack: "IBM Plex Sans", sans-serif;
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
 body{
-    margin: 0PX;
-    padding: 0PX;
     background-color: $primary-color;
     font-family: $font-stack;
 }
+html{
+    font-size: 62.5%;
+}
 
 nav{
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: $primary-text-color;
     padding: 15px;
     p{
-        font-size: 1.5em;
+        font-size: 3rem;
         padding-left: 30px;
     }
     .icons{
@@ -30,6 +37,57 @@ nav{
             border-style: none;
         }
     }
+}
+
+article{
+    display: flex;
+    
+    width: 100%;
+    color: $primary-text-color;
+    padding: 45px;
+    
+    
+    .impact-section{
+        width: 62%;
+        height: auto;
+        padding-right: 40px;
+
+        h1{
+            font-size: 6rem;
+            margin-top: 15px;
+        }  
+
+        p{
+            font-size: 2.5rem;
+            line-height: 3.2rem;
+            margin-top: 100px;
+        }
+        button{
+            margin-top: 100px;
+            width: 260px;
+            height: 75px;
+            background-color: #FA9500;
+            border: none;
+            font-size: 23px;
+            font-weight: 700;
+            color: $primary-color;
+            border-radius: 35px;
+        }
+    }
+    
+
+    .image-section{
+        width: 25%;
+        
+
+        img{
+            width: 550px;
+            height: 680px;
+            border-radius: 19px;
+            
+        }
+    }
+    
 }
 
 
