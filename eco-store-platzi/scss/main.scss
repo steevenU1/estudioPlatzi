@@ -104,6 +104,8 @@ section{
         margin: 40px 0;
     }
 
+    
+
     .card-section{
         display: flex;
         justify-content: center;
@@ -157,8 +159,7 @@ section{
             
         }
 
-        
-    
+           
         .furniture-card{
             @extend .product-card;
             background-color: $tertiary-color;
