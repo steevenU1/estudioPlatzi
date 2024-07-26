@@ -73,6 +73,72 @@ article .image-section img {
   border-radius: 19px;
 }
 
+section {
+  width: 100%;
+  height: auto;
+  padding: 45px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  font-weight: 400;
+  margin: 40px 0;
+}
+section .card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  row-gap: 60px;
+  flex-wrap: wrap;
+}
+section .product-card, section .furniture-card {
+  width: 325px;
+  height: 502px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFDAC6;
+  border-radius: 6px;
+}
+section .product-card svg, section .furniture-card svg {
+  margin: 10px;
+  align-self: flex-end;
+}
+section .product-card .product-image, section .furniture-card .product-image {
+  padding: 0px 25px;
+  display: flex;
+  justify-content: center;
+}
+section .product-card .product-image img, section .furniture-card .product-image img {
+  width: 240px;
+  height: 300px;
+  border-radius: 6px;
+}
+section .product-card h3, section .furniture-card h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  color: #7C6A0A;
+  margin: 10px 40px;
+}
+section .product-card p, section .furniture-card p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #7C6A0A;
+  margin: 10px 40px;
+}
+section .furniture-card {
+  background-color: #BABD8D;
+}
+section .furniture-card h3 {
+  color: white;
+}
+section .furniture-card P {
+  color: white;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;

@@ -90,6 +90,88 @@ article{
     
 }
 
+section{
+    width: 100%;
+    height: auto;
+    padding: 45px;
+    
+
+    h2{
+        color: $primary-text-color;
+        font-size: 5rem;
+        line-height: 6.5rem;
+        font-weight: 400;
+        margin: 40px 0;
+    }
+
+    .card-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 200px;
+        row-gap: 60px;
+        flex-wrap: wrap;
+    } 
+
+        .product-card{
+            width: 325px;
+            height: 502px;
+            display: flex;
+            flex-direction: column;
+            background-color: $secundary-color;
+            border-radius: 6px;
+
+            svg{
+                margin: 10px;
+                align-self: flex-end;
+            }
+
+            .product-image{
+                padding: 0px 25px;
+                display: flex;
+                justify-content: center;
+                
+        
+                img{
+                    width: 240px;
+                    height: 300px;
+                    border-radius: 6px;
+                }
+            
+            }
+        
+            h3{
+                font-size: 2.5rem;
+                font-weight: 600;
+                line-height: 3.2rem;
+                color: $primary-text-color;
+                margin: 10px 40px;
+            }
+        
+            p{
+                font-size: 1.5rem;
+                line-height: 2rem;
+                color: $primary-text-color;
+                margin: 10px 40px;
+            }
+            
+        }
+
+        
+    
+        .furniture-card{
+            @extend .product-card;
+            background-color: $tertiary-color;
+            h3{
+                color: #FFFF;
+            }
+            P{
+                color: #FFFF;
+            }
+        }
+   
+}
+
 
 footer{
     $background: #FA9500;
