@@ -87,11 +87,42 @@ html{
 .main-img-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    height: auto;
     margin-top: 20px;
 }
 
 .main-img-container img{
-    width: 100%;
-    height: 100%;
+    width: 328px;
+    height: 300px;
+}
+
+.card-section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.title-card{
+    display: flex;
+    align-items: center;
+    width: 310px;
+    height: 120px;
+    padding: auto;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(322deg, #f02aa6,#ff6f48);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+.title-card h2{
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    font-weight: 800;
+    text-align: left;
+    color: var(--white);
+    padding: 0 15px;
 }
