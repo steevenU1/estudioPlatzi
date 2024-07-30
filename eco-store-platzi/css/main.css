@@ -7,6 +7,7 @@
 body {
   background-color: #FFEFE7;
   font-family: "IBM Plex Sans", sans-serif;
+  width: 100%;
 }
 
 html {
@@ -40,7 +41,7 @@ article {
   padding: 45px;
 }
 article .impact-section {
-  width: 62%;
+  width: 60%;
   height: auto;
   padding-right: 40px;
 }
@@ -65,7 +66,7 @@ article .impact-section button {
   border-radius: 35px;
 }
 article .image-section {
-  width: 25%;
+  width: 40%;
 }
 article .image-section img {
   width: 550px;
@@ -207,5 +208,29 @@ section .furniture-card P, .location .furniture-card P, .gallery .furniture-card
 footer {
   background-color: #FA9500;
   width: 100%;
-  height: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  bottom: 0;
+}
+footer h3 {
+  font-size: 3rem;
+  color: #FFEFE7;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+footer p {
+  font-size: 2rem;
+  color: #FFEFE7;
+  font-weight: 500;
+  line-height: 2.6rem;
+  margin-bottom: 10px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
